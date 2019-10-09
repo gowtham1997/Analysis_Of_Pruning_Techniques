@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 
 - In case of *Weight pruning* the performance only starts decreasing after 90% sparsity, while in the case of *Unit pruning* the decline happens much earlier starting from 70% sparsity.
 
-- At 99% sparsity, both methods predict at random(accuracy of 10 % for classifying 10 classes)
+- At 99% sparsity, both methods predict at random(accuracy of 10 % in case of Unit pruning and 20% for Weight pruning)
 
 - One of the reasons why the model's performance is not hurt even after 80% weight pruning could be that most of the values in the trained model are around 0(as seen from the plot). Perhaps we can postulate that only 10 - 15 % of the weights contribute to the task.
 
