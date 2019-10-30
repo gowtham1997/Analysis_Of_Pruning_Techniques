@@ -13,6 +13,7 @@ pip3 install -r requirements.txt
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gowtham1997/Analysis_Of_Pruning_Techniques/blob/master/Network_Pruning.ipynb)
 
+
 ### Analysis / Results
 
 - *Weight pruning* outperforms *Unit pruning* when we are measuring model accuracy.
